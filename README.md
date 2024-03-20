@@ -28,7 +28,7 @@ for epoch in tqdm.tqdm(range(n_epoch)): # tqdm.tqdm prints a progress bar of you
     # compute loss and backpropagate it
     # update model weights
   end = perf_counter()
-  print("Epoch {epoch} took {(end-start)}s") # this is not an actual syntax
+  print("Epoch {epoch+1} took {(end-start)}s") # this is not the actual syntax
 ```
 
 ## Multi-process data loading
